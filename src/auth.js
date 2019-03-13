@@ -8,7 +8,6 @@ ui.start('#auth-container', {
         firebase.auth.EmailAuthProvider.PROVIDER_ID,
         firebase.auth.GoogleAuthProvider.PROVIDER_ID
     ],
-    //where do we go after auth sign in
     signInSuccessUrl: '/',
     callbacks: {
         signInSuccessWithAuthResult(authResult){
