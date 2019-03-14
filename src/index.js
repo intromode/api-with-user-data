@@ -15,8 +15,6 @@ window.addEventListener('hashchange', () => {
             }
             loadJobList(jobList);
         });
-
-
 });
 
 
