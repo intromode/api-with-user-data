@@ -1,7 +1,12 @@
 import { jobListTemplate } from '../src/job-list-template.js'; 
-import job from '../data/fake.js';
 const test = QUnit.test;
 QUnit.module('JOB TEMPLATE');
+
+const job = {
+    title: 'Technical Lead, GitHub Solutions',
+    company: 'Autodesk',
+    location: 'Portland, OR or Offsite- USA'
+};
 
 test('dynamically create job list', assert => {
   //arrange
