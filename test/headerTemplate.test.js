@@ -18,6 +18,7 @@ test('populate header', assert => {
       <div id="profile">
         <img src="../assets/cool-sun.jpg" id="user-image">
         <p>Phoebe LaBlonde</p>
+        <button>Sign Out</button>
       </div>
     </span>
     `;
