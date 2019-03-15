@@ -2,6 +2,12 @@ import loadJobList from './job-list-template.js';
 import './search.js';
 import { readFromHash } from './manipulate-hash.js';
 import makeSearchURL from './makeSearchUrl.js';
+// import { userRef } from './firebase.js';
+import loadHeader from './headerComponents.js';
+
+loadHeader();
+
+
 
 window.addEventListener('hashchange', () => {
     const hash = window.location.hash.slice(1);
